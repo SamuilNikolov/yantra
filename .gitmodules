@@ -1,0 +1,3 @@
+[submodule "MOE-GROUND-STATION-GUI"]
+	path = MOE-GROUND-STATION-GUI
+	url = https://github.com/SamuilNikolov/MOE-GROUND-STATION-GUI
