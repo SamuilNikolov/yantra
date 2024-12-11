@@ -39,6 +39,11 @@ void loop() {
             // Transmit the raw packet over Serial
             Serial.write(buffer, 21);
         }
+        //Serial.println();
+        //Serial.print("RSSI - ");
+        //Serial.println(LoRa.packetRssi());
+        //Serial.print("SNR - ");
+        //Serial.println(LoRa.packetSnr());
         // If invalid, do nothing and wait for the next packet
     }
 }
