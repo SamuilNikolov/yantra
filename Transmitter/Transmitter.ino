@@ -27,7 +27,7 @@ bfs::Mpu9250 imu;
 
 void setup() {
     Serial.begin(9600);
-
+  
     Serial2.begin(57600);
     // while (!Serial);
 
