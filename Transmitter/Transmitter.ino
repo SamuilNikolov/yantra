@@ -38,7 +38,7 @@ void setup() {
         while (1);
     }
     LoRa.setSpreadingFactor(7);
-
+    LoRa.enableCrc();
     Wire.begin();
     if (!bmp.begin_I2C()) {   // hardware I2C mode, can pass in address & alt Wire
     //if (! bmp.begin_SPI(BMP_CS)) {  // hardware SPI mode  

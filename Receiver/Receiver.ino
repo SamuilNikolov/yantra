@@ -22,6 +22,7 @@ void setup() {
         while (1);
     }
     LoRa.setSpreadingFactor(7); // Faster data rate
+    LoRa.enableCrc();
 }
 
 void loop() {
